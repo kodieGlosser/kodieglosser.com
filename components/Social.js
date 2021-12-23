@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 const Social = (props) => (
     <ul className="icons">
         <li><a href="https:/www.linkedin.com/in/kodieglosser/" target="_blank">
-            <FontAwesomeIcon icon={faLinkedin} />
+           <FontAwesomeIcon icon={faLinkedin} />
         </a></li>
         <li><a href="https://github.com/KodieGlosser" target="_blank">
            <FontAwesomeIcon icon={faGithub} />
