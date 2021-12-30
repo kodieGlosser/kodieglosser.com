@@ -60,6 +60,40 @@
 					line-height: 2.25rem;
 					text-align: center;
 					width: 2.25rem;
+					font-size: 2.25em;
+
+					&:hover {
+						background-color: _palette(border-bg);
+					}
+
+					&:active {
+						background-color: _palette(border-bg-alt);
+					}
+				}
+			}
+		}
+
+		&.icons_envelope {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+
+			li {
+				display: inline-block;
+				padding: 0 0.75em 0 0;
+
+				&:last-child {
+					padding-right: 0;
+				}
+
+				a {
+					border-radius: 100%;
+					display: inline-block;
+					height: 2rem;
+					line-height: 2.25rem;
+					text-align: center;
+					width: 2.25rem;
+					font-size: 2.25em;
 
 					&:hover {
 						background-color: _palette(border-bg);
