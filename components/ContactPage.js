@@ -5,7 +5,7 @@ import faEnvelope from '@fortawesome/fontawesome-free-regular/faEnvelope'
 import PropTypes from 'prop-types';
 
 const ContactPage = (props) => (
-    <ul className="icons_envelope">
+    <ul className="icons">
         <li><a href="mailto:kodieglosser@gmail.com" target="_blank">
             <FontAwesomeIcon icon={faEnvelope} />
         </a></li>
